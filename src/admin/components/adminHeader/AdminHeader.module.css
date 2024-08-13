@@ -1,0 +1,78 @@
+.adminHeaderContainer {
+  width: 1440px;
+  position: fixed;
+  top: 0;
+  left: 50%;  
+  transform: translateX(-50%);
+  z-index: 999;
+  color: white;
+}
+
+.adminHeaderTop {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #393B3F;
+  font-size: 24px;
+}
+
+.adminHeaderBottom {
+  font-size: 16px;
+  background-color: #494B50;
+  padding: 7px 0;
+}
+
+.adminHeaderLeftSection, .adminHeaderRightSection {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.adminHeaderLogo {
+  margin-right: 20px;
+}
+
+.adminHeader img {
+  height: 100%;
+  margin-top: 10px;
+}
+
+.adminHeaderTitle {
+  margin-top: 2px;
+}
+
+.adminHeaderBottom a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-right: 1px solid #000000;
+  align-items: center;
+  height: 100%;
+  transition: text-shadow 0.3s ease, box-shadow 0.3s ease;
+}
+
+.adminHeaderBottom a:hover {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.adminHeaderBottom a:last-child {
+  margin-right: 0;
+}
+
+.adminHeaderRightSection .adminHeaderInfo{
+  margin-left: 20px;
+  color: #9C9E9C;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.adminHeaderRightSection .adminHeaderLogoutLink {
+  color: red;
+  margin-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
